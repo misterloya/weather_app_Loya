@@ -1,0 +1,162 @@
+
+body{
+    background-color: white;
+}
+.card {
+    word-break: break-all;
+    display: grid;
+    align-items: center;
+    border-radius:10px;
+  }
+
+  .articleHeadline {
+    line-height: 1.5;
+  }
+
+
+.jumbotron {
+    font-size: 60px;
+    text-align:center;
+    width: 100%;
+    color: black; background-color: white;
+    border-radius:10px;
+    padding: 0.2rem 0.3rem;
+    border: solid black 1px;
+}
+
+#currentDay {
+  display: block;
+  background-color: white;
+  font-size: 2em;
+  padding: 10px;
+  border-radius:2px;
+  width: 50%;
+  border: solid black 1px;
+  text-align: center;
+  margin-left: 25%;
+}
+
+#searchbar {
+    background-color:rgb(241, 241, 236);
+    width:25%;
+    display: block;
+  
+    border: solid 2px black;
+    margin-left:50%;
+}
+
+#forecast {
+    background-color: white;
+    padding:40px;
+    margin-top:3%;
+    border: solid black 1px;
+    border-radius:10px;
+
+}
+
+.data {
+    margin-left: 20vw;
+}
+
+
+
+#search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    align-items: right;
+  }
+  
+  button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.card {
+    background-color: white;
+    width: 400px;
+    border: solid black 1px;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: 2%;
+    text-align: center;
+    align-content: center;
+}
+
+#fiveDay {
+    font-size: 40px;
+    padding-top: 20px;
+    display: relative;
+    background-color:white;
+    height: 2em;
+    margin-left: 35%;
+    font-weight: bold;
+    border: solid black 2px;
+    width: 8em;
+    padding: 5px;
+    border-radius:10px;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+
+
+.img1 {
+    width: 7em;
+    height: 7em;
+    margin-left:35%;
+}
+
+
+.col {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+}
+
+#day2, #day3, #day4, #day5, #day6{
+    border: solid black 2px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 0.60rem;
+    margin-right: 0.60rem;
+}
+
+#today {
+    background-color: white;
+    width:75%;
+    border: solid black 1px;
+    border-radius: 10px;
+    display:relative;
+
+    margin-left:21%;
+    margin-right:21%;
+    color:black;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: white;
+    }
+  }
