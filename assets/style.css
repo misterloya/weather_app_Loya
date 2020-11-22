@@ -68,6 +68,11 @@ body{
     width: 80%;
     background: #f1f1f1;
     align-items: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
   }
   
   button {
@@ -80,6 +85,11 @@ body{
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
   }
   
   button:hover {
@@ -100,6 +110,9 @@ body{
     padding: 10px;
     margin-left: 30%;
     margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     align-content: center;
 }
