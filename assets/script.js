@@ -157,14 +157,15 @@ $('#searchBar').val('')
 
 var count = 0;
 function saveLocally() {
-    let data = $("#searchBar").val();
+    let data1 = $("#searchBar").val();
+    let data = data1;
 
-localStorage.setItem("city-"+count, data);
+localStorage.setItem("city-"+count, data1);
 count++
 }
 
 var myData = newFunction();
 function newFunction() {
-    return localStorage.getItem('city', data);
+    return localStorage.getItem('city', data1);
 }
 
