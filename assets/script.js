@@ -152,10 +152,7 @@ var imageOne = `https://openweathermap.org/img/wn/${response.list[28].weather[0]
 $('#searchBar').val('')
 
 
-})
-})
-})
-
+})})})
 
 
 var count = 0;
