@@ -21,7 +21,7 @@ $("#submit").click(function (event) {
 
 
     var city = $("#searchBar").val();
-    var apiKey = "105fb5cfa2c589eefd6b17a6b1f5f6c0";
+    var apiKey = "26af5eb863f383bb7a48ace8bf7dd2ad";
     var units = "&units=imperial";
     var apiURL =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}${units}`;
     
@@ -61,11 +61,12 @@ $("#submit").click(function (event) {
 
 
 var city = $("#searchBar").val();
-var apiKey = "105fb5cfa2c589eefd6b17a6b1f5f6c0";
+var apiKey = "26af5eb863f383bb7a48ace8bf7dd2ad";
 var units = "&units=imperial";
 var apiURL =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}${units}`;
 
-var apiLatLon = `https://api.openweathermap.org/data/2.5/uvi?lat=${response.coord.lat}&lon=${response.coord.lon}&appid=105fb5cfa2c589eefd6b17a6b1f5f6c0${units}`;
+var apiLatLon = `https://api.openweathermap.org/data/2.5/uvi?lat=${response.coord.lat}&lon=${response.coord.lon}&appid=26af5eb863f383bb7a48ace8bf7dd2ad
+${units}`;
 
 
 console.log(response.coord.lat);
@@ -77,7 +78,7 @@ console.log(response.coord.lon);
 
 
 var city = $("#searchBar").val();
-var apiKey = "105fb5cfa2c589eefd6b17a6b1f5f6c0";
+var apiKey = "26af5eb863f383bb7a48ace8bf7dd2ad";
 var units = "&units=imperial";
 var apiURL2 =`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}${units}`;
 
