@@ -176,6 +176,14 @@ body{
   padding-top: 40px;
 }
 
+.col-md-12.py-5 {
+  color: white;
+  display: inline-flex;
+  /* justify-content: right; */
+  justify-content: center;
+  /* padding-top: 50%; */
+}
+
 .col {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-content: center;
@@ -202,6 +210,11 @@ body{
   margin-right: auto;
   color: white;
   font-family: sans-serif;
+}
+
+.footNavBar{
+  color:white;
+  border: solid black 1px;
 }
 
 @media screen and (min-width: 480px) {
