@@ -95,20 +95,21 @@ body{
   button {
     float: right;
     width: 20%;
-    padding: 10px;
-    background: whitesmoke;
+    padding: 20px;
+    background: darkslategray;
     color: white;
     font-size: 17px;
     border: 2px solid grey;
     border-left: none;
     cursor: pointer;
     display: block;
-    margin-left: auto;
+    margin-left: -30px;
     margin-right: auto;
     text-align: center;
     align-content: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  }
+    height: 50px;
+}
   
 .col {
    text-align: center;
@@ -122,8 +123,8 @@ body{
   }
 
 
-.card {
-    background-color: #333;
+  .card {
+    background-color: lightslategrey;
     width: 400px;
     border: solid black 2px;
     padding: 10px;
@@ -135,6 +136,7 @@ body{
     text-align: center;
     align-content: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 308px;
 }
 
 #fiveDay {
@@ -164,33 +166,42 @@ body{
     margin-right:auto;
     
 }
-
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 40px;
+}
 
 .col {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-content: center;
 }
 
-#day2, #day3, #day4, #day5, #day6{
-    border: solid black 1px;
-    background-color: #333;
-    border-radius: 10px;
-    padding-left: 10px;
-    margin-left: 0.60rem;
-    margin-right: 0.60rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#day2, #day3, #day4, #day5, #day6 {
+  border: solid black 1px;
+  background-color: lightslategrey;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-left: 0.60rem;
+  margin-right: 0.60rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #today {
-    background-color: #333;
-    width:80%;
-    border: solid black 1px;
-    border-radius: 10px;
-    display:relative;
-    text-align: center;
-    margin-left:auto;
-    margin-right:auto;
-    color:black;
+  background-color: darkslategray;
+  width: 80%;
+  border: solid black 1px;
+  border-radius: 10px;
+  display: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: sans-serif;
 }
 
 @media screen and (min-width: 480px) {
