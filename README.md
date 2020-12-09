@@ -8,7 +8,7 @@ Dynamically creating elements in HTML, in the browswer was the best part about m
 ability to interact with a website from a user's standpoint. 
 
 
-![](name-of-giphy.gif)
+![](https://github.com/misterloya/weather_app_Loya/blob/main/assets/images/weatheradash.gif)
 
 
 
