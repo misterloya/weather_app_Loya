@@ -1,5 +1,6 @@
 # weather_app_Loya
 
-![picture 3](images/0e7d43b1a4a9c9ca530c4f6ac242b9f7cc04670ed9aed7515ae0ac633e1a0566.png)  
-![picture 4]()  
+This weather app is made to give the user a 5 day lookout on weather. I utilized a free API to pull down data based on the search input information. 
+This was a great excersize in using APIs and CSS in a functionally sound manner. Once the user clicks on submit after inputing a city, then information will 
+present on the screen that includes a 5 days forecast. 
 
